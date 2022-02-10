@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "prompt", sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+  }
+
+  .pink {
+    background: #c62368;
+    background-image: linear-gradient(to bottom, #c62368, #eb5d4b);
+  }
+
+  .dark {
+    background: #0f0f10;
+  }
+
+  .spacer {
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .curve1 {
+    background-image: url("./curve1.svg");
+  }
+
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  :root {
+      --clr-dark: rgb(13, 17, 19);
+      --clr-light: #fff;
+      --clr-accent: rgb(222, 52, 0);
+      --clr-accent-dark: rbg(163, 52, 0);
+      --clr-secondary: rgb(0, 62, 163);
+  }
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+
+.game {
+    position: relative;
+    width: 12.5em;
+}
+
+.name {
+    display: flex ;
+
+}
+
+.front {
+    .name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid red;
+
+    }
+}
+
+
+.back{
+    display: none;
+}
